@@ -3,6 +3,7 @@ import { ImInstagram, ImWhatsapp, ImLinkedin } from "react-icons/im";
 import { AiFillGithub } from "react-icons/ai";
 import AboutPage from './pages/about';
 import ExperienceComponent from './pages/experience';
+import ProjectPage from './pages/project';
 
 export default function home () {
   return (
@@ -75,7 +76,8 @@ export default function home () {
             </div>
           </div>
         <AboutPage />
-        <ExperienceComponent/>
+          <ExperienceComponent />
+          <ProjectPage />
         </div>
       </div>
     </body>

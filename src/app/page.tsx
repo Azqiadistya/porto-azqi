@@ -4,6 +4,7 @@ import { AiFillGithub } from "react-icons/ai";
 import AboutPage from './pages/about';
 import ExperienceComponent from './pages/experience';
 import ProjectPage from './pages/project';
+import BlogPage from './pages/blog';
 
 export default function home () {
   return (
@@ -54,7 +55,7 @@ export default function home () {
         <div className="col-span-3 text-7xl bg-blue-50 pt-10 h-screen overflow-y-scroll">
           <div className="grid grid-cols-2 gap-3 px-20">
             <div className="pt-28">
-              <h1 className="font-['Rajdhani'] font-black text-blue-950">Hi, I' m</h1>
+              <h1 className="font-['Rajdhani'] font-black text-blue-950">Hi, I&apos;m</h1>
               <h1 className="font-['Rajdhani'] font-black text-blue-400">Azqiadistya</h1>
               <p className="font-['Rajdhani'] text-lg font-semibold pb-5 italic text-blue-950">Frontend Developer  |  Based in Yogyakarta</p>
               <p className="text-base font-['Rajdhani'] pb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut beatae optio ratione aperiam minima consequuntur autem necessitatibus repellat molestias, quasi impedit dolor, distinctio, odit alias minus praesentium inventore tenetur aliquam.</p>
@@ -63,7 +64,7 @@ export default function home () {
                 Download CV
               </button>
               <button className="bg-transparent hover:bg-blue-950 font-bold text-blue-950 ml-2 text-sm hover:text-white py-2 px-4 border border-blue-950 hover:border-transparent rounded">
-                Let's Talk
+                Let&apos;s Talk
               </button>
 
               <p className="font-['Rajdhani'] text-base font-semibold text-blue-950 pt-16">+62 8232 2302 193</p>
@@ -78,6 +79,7 @@ export default function home () {
         <AboutPage />
           <ExperienceComponent />
           <ProjectPage />
+          <BlogPage />
         </div>
       </div>
     </body>

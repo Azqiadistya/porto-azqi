@@ -14,7 +14,7 @@ function AboutPage() {
               </button>
           </div>
           <div className="col-span-2 pl-10">
-              <p className="text-lg font-['Rajdhani'] pb-5">Hello there! My name is Robert Elisc. I am a web designer & developer, and I'm very passionate and dedicated to my work.</p>
+              <p className="text-lg font-['Rajdhani'] pb-5">Hello there! My name is Robert Elisc. I am a web designer & developer, and I&apos;m very passionate and dedicated to my work.</p>
               <p className="text-lg font-['Rajdhani'] pb-5">With 20 years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
               <div className="grid grid-cols-10 pt-8 pb-8">
                 <div className="">

@@ -1,5 +1,6 @@
 // pages/about/about.tsx
 import React from "react";
+import { BsFillBootstrapFill } from "react-icons/bs";
 
 function AboutPage() {
   return (
@@ -47,8 +48,72 @@ function AboutPage() {
               <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">30+</h1>
               <p className="text-lg font-['Rajdhani']">PROJECT COMPLETED</p>
           </div>
-
-
+        <div className="col-span-3 pt-12">
+            <h1 className="font-['Rajdhani'] text-lg font-semibold pb-1 text-blue-950">- SKILLS</h1>
+            <p className="font-['Rajdhani'] text-5xl font-black text-blue-950">My coding skills.</p>
+            <div className="grid grid-cols-5 gap-4 mt-7">
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+                <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
+                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                </div>
+            </div>  
+        </div>
     </div>
   );
 }

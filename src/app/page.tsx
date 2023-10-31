@@ -5,6 +5,8 @@ import AboutPage from './pages/about';
 import ExperienceComponent from './pages/experience';
 import ProjectPage from './pages/project';
 import BlogPage from './pages/blog';
+import RoadmapPage from './pages/roadmap';
+import ContactPage from './pages/contact';
 
 export default function home () {
   return (
@@ -19,7 +21,6 @@ export default function home () {
           <div className="flex flex-wrap justify-center pt-9">
             <p className="font-['Rajdhani'] text-2xl font-bold pb-5 text-blue-950">Azqia Adistya</p>
           </div>
-          
           <div className="flex flex-wrap justify-center pt-5 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg">
             <a href="#">Home</a>
           </div>
@@ -76,10 +77,12 @@ export default function home () {
               <Image src="/person1.png" width={500} height={500} alt="Picture of the author"/>
             </div>
           </div>
-        <AboutPage />
+          <AboutPage />
           <ExperienceComponent />
           <ProjectPage />
           <BlogPage />
+          <RoadmapPage />
+          <ContactPage />
         </div>
       </div>
     </body>

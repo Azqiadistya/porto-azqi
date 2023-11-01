@@ -11,16 +11,16 @@ function ExperienceComponent() {
           <div className="grid grid-cols-2 gap-5">
               <div className="bg-white p-7 rounded-lg mt-7 grid grid-cols-2 gap-4 place-content-between">
                 <div>
-                    <p className="text-base font-['Rajdhani'] pb-1 font-semibold text-yellow-400 ">-2020 - Present</p>
+                    <p className="text-base font-['Rajdhani'] pb-1 font-semibold text-yellow-400 ">-2022 - Present</p>
                 </div>
                 <div>
-                    <p className="text-base font-['Rajdhani'] pb-1 font-semibold text-blue-950 text-end ">-Alterra Academy</p>
+                    <p className="text-base font-['Rajdhani'] pb-1 font-semibold text-blue-950 text-end ">- Ziray Media</p>
                 </div>
                 <div className="col-span-2">
                     <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950">Web Developer</h3>  
                 </div>
                 <div className="col-span-2">
-                    <p className="text-base font-['Rajdhani'] pb-1 text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fuga et corporis reiciendis aut.</p>  
+                    <p className="text-base font-['Rajdhani'] text-blue-900 line-clamp-2">ZirayMedia is a web development service that specializes in corporate websites and solutions for small and medium-sized enterprises (UMKM). Additionally, ZirayMedia offers services for creating virtual tour websites.</p>  
                 </div>
               </div>
               <div className="bg-white p-7 rounded-lg mt-7 grid grid-cols-2 gap-4 place-content-between">
@@ -34,7 +34,7 @@ function ExperienceComponent() {
                     <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950">Web Developer</h3>  
                 </div>
                 <div className="col-span-2">
-                    <p className="text-base font-['Rajdhani'] pb-1 text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fuga et corporis reiciendis aut.</p>  
+                    <p className="text-base font-['Rajdhani'] text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fuga et corporis reiciendis aut.</p>  
                 </div>
               </div>
           </div>
@@ -50,7 +50,7 @@ function ExperienceComponent() {
                     <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950">Web Developer</h3>  
                 </div>
                 <div className="col-span-2">
-                    <p className="text-base font-['Rajdhani'] pb-1 text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fuga et corporis reiciendis aut.</p>  
+                    <p className="text-base font-['Rajdhani']text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fuga et corporis reiciendis aut.</p>  
                 </div>
               </div>
               <div className="bg-white p-7 rounded-lg mt-7 grid grid-cols-2 gap-4 place-content-between">
@@ -61,10 +61,10 @@ function ExperienceComponent() {
                     <p className="text-base font-['Rajdhani'] pb-1 font-semibold text-blue-950 text-end ">-Alterra Academy</p>
                 </div>
                 <div className="col-span-2">
-                    <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950">Web Developer</h3>  
+                    <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950">Frontend with VueJs</h3>  
                 </div>
                 <div className="col-span-2">
-                    <p className="text-base font-['Rajdhani'] pb-1 text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fuga et corporis reiciendis aut.</p>  
+                    <p className="text-base font-['Rajdhani']text-blue-900">Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellat fuga et corporis reiciendis aut.</p>  
                 </div>
               </div>
           </div>

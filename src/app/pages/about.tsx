@@ -1,6 +1,11 @@
 // pages/about/about.tsx
 import React from "react";
-import { BsFillBootstrapFill } from "react-icons/bs";
+import { BsFillBootstrapFill, BsGithub } from "react-icons/bs";
+import { GrMysql, GrGraphQl } from "react-icons/gr";
+import { FiFigma } from "react-icons/fi";
+import { FaLaravel, FaVuejs, FaCss3Alt, FaHtml5 } from "react-icons/fa";
+import { SiVuetify, SiJavascript } from "react-icons/si";
+import { BiLogoReact, BiLogoPhp, BiLogoTypescript, BiLogoTailwindCss } from "react-icons/bi";
 
 function AboutPage() {
   return (
@@ -15,8 +20,8 @@ function AboutPage() {
               </button>
           </div>
           <div className="col-span-2 pl-10">
-              <p className="text-lg font-['Rajdhani'] pb-5">Hello there! My name is Robert Elisc. I am a web designer & developer, and I&apos;m very passionate and dedicated to my work.</p>
-              <p className="text-lg font-['Rajdhani'] pb-5">With 20 years experience as a professional a graphic designer, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of the design process, from discussion and collaboration.</p>
+              <p className="text-lg font-['Rajdhani'] pb-5">Hello there! My name is Azqia Adistya. I am a frontend developer, and I&apos;m very passionate and dedicated to my work.</p>
+              <p className="text-lg font-['Rajdhani'] pb-5">I&apos;m proud to have successfully completed several freelance projects, I have acquired the skills and knowledge necessary to make your project a success. I enjoy every step of development process, from discussion and collaboration.</p>
               <div className="grid grid-cols-10 pt-8 pb-8">
                 <div className="">
                       <p className="text-lg font-['Rajdhani'] underline decoration-solid">AGE</p>
@@ -37,11 +42,11 @@ function AboutPage() {
               </div>
           </div>
           <div className="p-5 bg-blue-200 rounded-lg flex flex-wrap justify-center">
-              <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">10+</h1>
+              <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">30+</h1>
               <p className="text-lg font-['Rajdhani']">YEARS OF EXPERIENCE</p>
           </div>
           <div className="p-5 bg-red-200 rounded-lg flex flex-wrap justify-center">
-              <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">50+</h1>
+              <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">100+</h1>
               <p className="text-lg font-['Rajdhani']">PROJECT COMPLETED</p>
           </div>
           <div className="p-5 bg-green-200 rounded-lg flex flex-wrap justify-center">
@@ -57,60 +62,60 @@ function AboutPage() {
                     <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <FaLaravel size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Laravel</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <GrMysql size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">MySQL</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <FiFigma size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Figma</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <FaVuejs size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Vue JS</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <SiVuetify size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Vuetify</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <BiLogoReact size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">React Js</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <BiLogoPhp size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">PHP</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <FaCss3Alt size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">CSS</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <SiJavascript size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">JavaScript</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <BsGithub size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Github</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <FaHtml5 size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">HTML</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <BiLogoTypescript size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">TypeScript</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <BiLogoTailwindCss size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Tailwind</p>  
                 </div>
                 <div className="bg-white rounded-full w-full h-12 pt-1.5 px-3 flex flex-wrap border-4 border-blue-100">
-                    <BsFillBootstrapFill size={30} color="orange" className="pl-3" />
-                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">Bootstrap</p>  
+                    <GrGraphQl size={30} color="orange" className="pl-3" />
+                    <p className="font-['Rajdhani'] text-lg font-bold text-blue-950 pl-2">GraphQL</p>  
                 </div>
             </div>  
         </div>

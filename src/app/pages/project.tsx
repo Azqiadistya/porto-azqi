@@ -1,62 +1,34 @@
-// pages/about/about.tsx
-import React from "react";
-import Image from 'next/image'
-import { FaLaravel } from "react-icons/fa6";
-import { SiMysql } from "react-icons/si";
-import { BiLogoPhp } from "react-icons/bi";
-import { BsFillBootstrapFill } from "react-icons/bs";
+"use client";
+import React from 'react';
+import { useSpring, animated } from '@react-spring/web';
+import Image from 'next/image';
 
-function ProjectPage() {
+const cardsData = [
+  { id: 1, title: 'ziraymedia.com', tech:'Laravel, MYSQL, Bootstrap, HTML', content: 'The solution to get your business location on everyone\'s screens. With a virtual tour, potential visitors can see and walk around your place without having to leave their place', image: '/porto1.png' },
+  { id: 2, title: 'Virtual Tour', tech:'Laravel, MYSQL, Bootstrap, HTML', content: 'The solution to get your business location on everyone\'s screens. With a virtual tour, potential visitors can see and walk around your place without having to leave their place', image: '/porto3.png' },
+  { id: 3, title: 'Induro Internasional',tech:'Laravel, MYSQL, Bootstrap, HTML', content: 'The solution to get your business location on everyone\'s screens. With a virtual tour, potential visitors can see and walk around your place without having to leave their place', image: '/porto2.png' },
+];
+
+function App() {
   return (
-    <><div className="grid grid-cols-5 px-20 pt-32 pb-7 bg-white">
-      <div className="col-span-3">
-        <h1 className="font-['Rajdhani'] text-lg font-semibold pb-1 text-blue-950">- PROJECT</h1>
-        <h1 className="font-['Rajdhani'] text-5xl font-black text-blue-950">Recent completed works</h1>
-      </div>
-    </div>
-    <div className="grid grid-cols-3 gap-5 px-20 pb-10 bg-white">
-      <div className=" bg-blue-50 rounded-t-lg rounded-b-lg">
-          <Image src="/porto1.png" width={500} height={500} alt="Picture of the author" className="rounded-t-lg" />
-          <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950 pt-3 pl-5">ziraymedia.com</h3>
-          <p className="text-base font-['Rajdhani'] pb-1 pt-2 pl-5 text-blue-900">Ziray Media: Crafting Your Digital Presence with Expert Web Solutions.</p> 
-          <div className="px-5 pt-2 flex flex-wrap">
-            <FaLaravel size={32} color="orange" />
-            <SiMysql size={55} color="orange" className="pl-2 pb-2" />
-            <BiLogoPhp size={55} color="orange" className="pl-2 pb-2" />
-            <BsFillBootstrapFill size={40} color="orange" className="pl-2 pb-2 pt-2" />
-          </div>
-      </div>
-      <div className=" bg-blue-50 rounded-t-lg rounded-b-lg">
-          <Image src="/porto1.png" width={500} height={500} alt="Picture of the author" className="rounded-t-lg" />
-          <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950 pt-3 pl-5">ziraymedia.com</h3>
-          <p className="text-base font-['Rajdhani'] pb-1 pt-2 pl-5 text-blue-900">Ziray Media: Crafting Your Digital Presence with Expert Web Solutions.</p> 
-          <div className="px-5 pt-2 flex flex-wrap">
-            <FaLaravel size={32} color="orange" />
-            <SiMysql size={55} color="orange" className="pl-2 pb-2" />
-            <BiLogoPhp size={55} color="orange" className="pl-2 pb-2" />
-            <BsFillBootstrapFill size={40} color="orange" className="pl-2 pb-2 pt-2" />
-          </div>
-      </div>
-      <div className=" bg-blue-50 rounded-t-lg rounded-b-lg">
-          <Image src="/porto1.png" width={500} height={500} alt="Picture of the author" className="rounded-t-lg" />
-          <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950 pt-3 pl-5">ziraymedia.com</h3>
-          <p className="text-base font-['Rajdhani'] pb-1 pt-2 pl-5 text-blue-900">Ziray Media: Crafting Your Digital Presence with Expert Web Solutions.</p> 
-          <div className="px-5 pt-2 flex flex-wrap">
-            <FaLaravel size={32} color="orange" />
-            <SiMysql size={55} color="orange" className="pl-2 pb-2" />
-            <BiLogoPhp size={55} color="orange" className="pl-2 pb-2" />
-            <BsFillBootstrapFill size={40} color="orange" className="pl-2 pb-2 pt-2" />
-          </div>
+    <div className="px-20 pt-5 pb-10 bg-blue-50" id="project">
+      <h1 className="font-['Rajdhani'] text-lg font-semibold pb-1 text-blue-950">- PROJECT</h1>
+      <h1 className="font-['Rajdhani'] text-5xl font-black text-blue-950">Project is Complete</h1>
+      <div className="container mx-auto py-4 pt-10 grid grid-cols-2 gap-4" >
+        {cardsData.map(card => (
+          <animated.div key={card.id} className="card p-8 rounded-lg flex flex-col overflow-y-auto bg-white">
+            <Image src={card.image} alt={card.title} width={150} height={100} className="rounded-lg mb-4 flex-shrink-0 w-full" />
+            <div className="card-body flex-grow">
+              <h5 className="card-title text-xl font-bold mb-1">{card.title}</h5>
+              <p className="card-text text-gray-600 text-sm mb-4">{card.tech}</p>
+              <p className="card-text text-gray-600 text-base">{card.content}</p>
+              <a href="#" className="btn btn-primary mt-4 text-base">Lihat Detail</a>
+            </div>
+          </animated.div>
+        ))}
         </div>
-      </div >
-      <div className="flex flex-wrap justify-center pb-28 bg-white">
-        <button className="bg-blue-950 hover:bg-blue-900 text-white text-lg font-bold py-3 px-4 rounded">
-          View all projects
-        </button>
       </div>
-    </> 
-    
   );
 }
 
-export default ProjectPage;
+export default App;

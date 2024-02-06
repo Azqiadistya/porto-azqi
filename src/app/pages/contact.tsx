@@ -3,7 +3,7 @@ import React from "react";
 
 function ContactPage() {
   return (
-      <div className="grid grid-cols-2 gap-4 px-20 pt-32 pb-24 bg-blue-50">
+      <div className="grid grid-cols-2 gap-4 px-20 pt-20 pb-24 bg-blue-50" id="contact">
           <div>
               <h1 className="font-['Rajdhani'] text-lg font-semibold pb-1 text-blue-950">- LET&apos;S CONNECT</h1>
               <h1 className="font-['Rajdhani'] text-5xl font-black text-blue-950">Get in touch</h1>

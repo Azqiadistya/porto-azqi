@@ -12,7 +12,7 @@ import { SiNextdotjs } from "react-icons/si";
 
 function RoadmapFe() {
   return (
-    <div className="grid grid-cols-2 px-20 bg-white flex pb-32">
+    <div className="grid grid-cols-2 px-20 bg-white flex pb-16">
         <div className="flex flex-wrap mt-5 bg-white col-span-2 rounded-full p-3 justify-between border-4 border-blue-100">
             <div className="flex flex-wrap pl-5">
                 <FaHtml5 size={32} color="orange" />

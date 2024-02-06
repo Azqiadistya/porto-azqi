@@ -10,7 +10,7 @@ import RoadmapReact from "./roadmapreact";
 
 function RoadmapPage() {
   return (
-    <><div className="grid grid-cols-5 px-20 pt-32 pb-2 bg-white">
+    <><div className="grid grid-cols-5 px-20 pt-20 pb-2 bg-white" id="roadmap">
       <div className="col-span-3">
         <h1 className="font-['Rajdhani'] text-lg font-semibold pb-1 text-blue-950">- Roadmap</h1>
         <h1 className="font-['Rajdhani'] text-5xl font-black text-blue-950">Learning path recomendation</h1>

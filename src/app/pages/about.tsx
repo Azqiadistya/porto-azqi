@@ -9,7 +9,7 @@ import { BiLogoReact, BiLogoPhp, BiLogoTypescript, BiLogoTailwindCss } from "rea
 
 function AboutPage() {
   return (
-      <div className="grid grid-cols-3 gap-4 px-20 pt-32 pb-32 bg-white">
+      <div className="grid grid-cols-3 gap-4 px-20 pt-32 pb-32 bg-white" id="about"> 
           <div>
               <h1 className="font-['Rajdhani'] text-lg font-semibold pb-1 text-blue-950">- NICE TO MEET YOU</h1>
               <h1 className="font-['Rajdhani'] text-5xl font-black text-blue-950">Azqiadistya</h1>
@@ -41,17 +41,17 @@ function AboutPage() {
                   </div>
               </div>
           </div>
-          <div className="p-5 bg-blue-200 rounded-lg flex flex-wrap justify-center">
-              <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">30+</h1>
-              <p className="text-lg font-['Rajdhani']">YEARS OF EXPERIENCE</p>
+          <div className="p-5 bg-blue-200 rounded-lg justify-center">
+              <h1 className="text-5xl font-['Rajdhani'] font-bold text-center">4+</h1>
+              <p className="text-lg font-['Rajdhani'] text-center">YEARS OF EXPERIENCE</p>
           </div>
-          <div className="p-5 bg-red-200 rounded-lg flex flex-wrap justify-center">
-              <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">100+</h1>
-              <p className="text-lg font-['Rajdhani']">PROJECT COMPLETED</p>
+          <div className="p-5 bg-red-200 rounded-lg justify-center">
+              <h1 className="text-5xl font-['Rajdhani'] font-bold text-center">12+</h1>
+              <p className="text-lg font-['Rajdhani'] text-center">PROJECT COMPLETED</p>
           </div>
-          <div className="p-5 bg-green-200 rounded-lg flex flex-wrap justify-center">
-              <h1 className="text-5xl font-['Rajdhani'] font-bold pt-5">30+</h1>
-              <p className="text-lg font-['Rajdhani']">PROJECT COMPLETED</p>
+          <div className="p-5 bg-green-200 rounded-lg justify-center">
+              <h1 className="text-5xl font-['Rajdhani'] font-bold text-center">30+</h1>
+              <p className="text-lg font-['Rajdhani'] text-center">PROJECT COMPLETED</p>
           </div>
         <div className="col-span-3 pt-12">
             <h1 className="font-['Rajdhani'] text-lg font-semibold pb-1 text-blue-950">- SKILLS</h1>

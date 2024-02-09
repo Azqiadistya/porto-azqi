@@ -24,22 +24,22 @@ export default function home () {
           </div>
 
           <div className='my-auto'>
-            <div className="flex flex-wrap justify-center pt-2 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg">
+            <div className="flex flex-wrap justify-center pt-2 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg rounded-xl hover:bg-slate-200">
               <a href="">Home</a>
             </div>
-            <div className="flex flex-wrap justify-center pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg">
+            <div className="flex flex-wrap justify-center pt-2 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg rounded-xl hover:bg-slate-200">
               <a href="#about">About</a>
             </div>
-            <div className="flex flex-wrap justify-center pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg">
+            <div className="flex flex-wrap justify-center pt-2 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg rounded-xl hover:bg-slate-200">
               <a href="#project">Project</a>
             </div>
-            <div className="flex flex-wrap justify-center pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg">
+            <div className="flex flex-wrap justify-center pt-2 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg rounded-xl hover:bg-slate-200">
               <a href="#blog">Blog</a>
             </div>
-            <div className="flex flex-wrap justify-center pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg">
+            <div className="flex flex-wrap justify-center pt-2 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg rounded-xl hover:bg-slate-200">
               <a href="#roadmap">Roadmap</a>
             </div>
-            <div className="flex flex-wrap justify-center pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg">
+            <div className="flex flex-wrap justify-center pt-2 pb-2 font-['Rajdhani'] text-blue-950 font-semibold text-lg rounded-xl hover:bg-slate-200">
               <a href="#contact">Contact</a>
             </div>
           </div>

@@ -21,8 +21,9 @@ function App() {
             <div className="card-body flex-grow">
               <h5 className="card-title text-xl font-bold mb-1">{card.title}</h5>
               <p className="card-text text-gray-600 text-sm mb-4">{card.tech}</p>
-              <p className="card-text text-gray-600 text-base">{card.content}</p>
-              <a href="#" className="btn btn-primary mt-4 text-base">Lihat Detail</a>
+              <p className="card-text text-gray-600 text-base font-['Rajdhani'] text-blue-900 line-clamp-3">{card.content}</p>
+              <a href="#" className="font-['Rajdhani'] text-red-600 text-sm font-bold pr-3">Lihat Detail</a>
+              <a href="#" className="font-['Rajdhani'] text-yellow-400 text-sm font-bold">Website</a>
             </div>
           </animated.div>
         ))}

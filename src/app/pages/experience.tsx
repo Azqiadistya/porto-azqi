@@ -50,7 +50,7 @@ function ExperienceComponent() {
                     <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950">Laravel Web Development</h3>  
                 </div>
                 <div className="col-span-2">
-                    <p className="text-base font-['Rajdhani']text-blue-900 line-clamp-2">I am currently enrolled in the Sanbercode bootcamp, where I am gaining expertise in Laravel. The program provides comprehensive knowledge and practical skills in Laravel, equipping me for a successful career in web development</p>  
+                    <p className="text-base font-['Rajdhani'] text-blue-900 line-clamp-2">I am currently enrolled in the Sanbercode bootcamp, where I am gaining expertise in Laravel. The program provides comprehensive knowledge and practical skills in Laravel, equipping me for a successful career in web development</p>  
                 </div>
               </div>
               <div className="bg-white p-7 rounded-lg mt-7 grid grid-cols-2 gap-4 place-content-between">
@@ -64,7 +64,7 @@ function ExperienceComponent() {
                     <h3 className="text-2xl font-['Rajdhani'] font-semibold text-blue-950">Chairman</h3>  
                 </div>
                 <div className="col-span-2">
-                    <p className="text-base font-['Rajdhani']text-blue-900 line-clamp-2">Imagiri Jogja is a student organization consisting of students from the Wonogiri region who are currently studying in Yogyakarta.</p>  
+                    <p className="text-base font-['Rajdhani'] text-blue-900 line-clamp-2">Imagiri Jogja is a student organization consisting of students from the Wonogiri region who are currently studying in Yogyakarta.</p>  
                 </div>
               </div>
           </div>

@@ -1,11 +1,5 @@
-// pages/about/about.tsx
 "use client"
 import React from "react";
-import Image from 'next/image'
-import { FaLaravel } from "react-icons/fa6";
-import { SiMysql } from "react-icons/si";
-import { BiLogoPhp } from "react-icons/bi";
-import { BsFillBootstrapFill } from "react-icons/bs";
 import RoadmapFe from "./roadmapfe";
 import RoadmapReact from "./roadmapreact";
 import { useState } from 'react';
@@ -36,10 +30,10 @@ function RoadmapPage() {
         </div>
       </div>
       <div className="grid grid-cols-4 gap-5 px-20 pb-3 bg-white">
-        <button onClick={handleClickFe} className={`bg-${activeButton === 'Fe' ? 'blue-900' : 'gray-400'} hover:bg-blue-950 text-white text-sm font-bold py-3 px-1 rounded-full w-full`}>
+        <button onClick={handleClickFe} className={`bg-${activeButton === 'Fe' ? 'blue-900' : 'gray-400'} bg-blue-950 hover:bg-blue-950 text-white text-sm font-bold py-3 px-1 rounded-full w-full`}>
           Frontend Developer
         </button>       
-        <button onClick={handleClickReact} className={`bg-${activeButton === 'React' ? 'blue-900' : 'gray-400'} hover:bg-blue-950 text-white text-sm font-bold py-3 rounded-full w-full`}>
+        <button onClick={handleClickReact} className={`bg-${activeButton === 'React' ? 'blue-900' : 'gray-400'} bg-blue-950 hover:bg-blue-950 text-white text-sm font-bold py-3 rounded-full w-full`}>
           Mastering React Js
         </button>       
       </div>
